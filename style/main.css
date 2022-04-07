@@ -1,1 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url('../assets/theNightmare.png');
+	background-position: center center;
 
+	flex-direction: column;
+	display: flex;
+}
+h1 {
+	font-size: 120px;
+	font-family: 'Amatic SC', cursive;
+	color: orange;
+}
+
+.countdown-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.big-text {
+	font-family: 'Amatic SC', cursive;
+
+	font-size: 10rem;
+	line-height: 1;
+	margin: 0 2rem;
+}
+.countdown-el {
+	text-align: center;
+	color: #fad560;
+}
+
+.countdown-el span {
+	font-size: 3.3rem;
+	font-family: 'Amatic SC', cursive;
+	color: #fad560;
+}
