@@ -35,3 +35,53 @@ h1 {
 	font-family: 'Amatic SC', cursive;
 	color: #fad560;
 }
+/* --------------------------MEDIA------------------------ */
+
+@media (max-width: 740px) {
+	.big-text {
+		font-size: 100px;
+	}
+}
+
+@media (max-width: 570px) {
+	.big-text {
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 510px) {
+	.big-text {
+		font-size: 70px;
+	}
+
+	.countdown-el span {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.big-text {
+		font-size: 50px;
+	}
+}
+@media (max-width: 420px) {
+	.big-text {
+		font-size: 40px;
+		color: orange;
+	}
+	.countdown-el span {
+		font-size: 1.5rem;
+		color: orange;
+	}
+}
+@media (max-width: 386px) {
+	h1 {
+		font-size: 100px;
+	}
+	.big-text {
+		font-size: 80px;
+	}
+	.countdown-el span {
+		font-size: 3.5rem;
+	}
+}
